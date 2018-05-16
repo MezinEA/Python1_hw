@@ -179,7 +179,5 @@ for i in left_diagonal_list[:15]:
         fight = fight + 1
 
 # ВСЕ ОСТАЛЬНЫЕ ПРИНТЫ МОЖНО УБРАТЬ - ВАЖЕН ТОЛЬКО ЭТОТ РЕЗУЛЬТАТИВНЫЙ
-if fight > 0:
-    print('YES')
-else:
-    print('NO')
+print('YES' if fight > 0 else 'NO')
+
